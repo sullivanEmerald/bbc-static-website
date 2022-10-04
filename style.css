@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+header{
+    background-color: black;
+    height:48px;
+    color:white;
+}
+
+
+nav *{
+    float:left;
+    width:15%;
+    color: white;
+    display: block;
+    line-height: 3;
+    
+}
+
+
+#sign{
+    border-left:1px solid white;
+    padding-left:5px;
+}
+
+nav .image{
+    margin-top: 6px;
+    width:10%;
+    
+}
+
+nav ul{
+   width: 60%; 
+}
+
+
+nav ul li{
+    border-left:1px solid white;
+    padding-left:5px;
+    width: 10%;
+    margin-right:15px;
+ }
+
+ a{
+     text-decoration: none;
+ }
+
+nav form input{
+    width:100%;
+    height:30px;
+    margin-top: 6px;
+} 
+
+
+.bbcnews{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.bbcnews > *{
+    float: left;
+    width:13%;
+}
+
+.bbcnews > h2{
+    width: 20%;
+}
+
+
+.bbcnews span{
+    float: right;
+    font-size: 20px;
+    
+
+}
+
+.main{  
+    margin-top:5%;
+    width: 100%;
+}
+
+
+h2 + section > section{
+    width:32%;
+    float:left;
+    
+}
+
+.main section{
+    float:left;
+    margin-left: 4px;
+    width:49%;
+}
+
+
+main.main > section.first-child{
+    background-image: url("img/01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color:rgb(248, 248, 248);
+    
+    
+}
+
+main.main > section.second-child{
+    color:rgb(248, 248, 248);
+    width: 50%;
+    
+}
+
+main.main > section.first-child + section > section#img1{
+    background-image: url("img/02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 197px;
+    padding:10px;
+    
+    
+}
+
+main.main > section.first-child + section > section#img2{
+    background-image: url("img/03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 197px;
+    padding:10px;
+    
+    
+    
+}
+
+main.main > section.first-child + section > section#img3{
+    background-image: url("img/04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 197px;
+    padding:10px;
+    
+    
+    
+}
+
+main.main > section.first-child + section > section#img4{
+    background-image: url("img/05.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 197px;
+    padding:10px;
+    
+    
+    
+}
+
+#img1, #img2, #img3, #img4{
+    margin:0 0 5px 6px;
+}
+ main.main > section.first-child > h2{
+    margin-top: 45%;
+    font-size: 30px;
+ }
+
+ main.main > section.first-child *{
+     margin-left: 7px;
+     display: inline-block;
+     margin-top: 5px;
+     
+ }
+
+ main.main > section.first-child p, main.main > section.first-child span{
+    opacity: 80%;
+ }
+
+ section.first-child span{
+     border-left: 2px solid red;
+     padding: 0 5px;
+ }
+
+
+/* second section in the main section text syling and alignment */
+
+.second-child h2{
+    font-size: 23px;
+
+;
+}
+.second-child span{
+    display: inline-block;
+    margin-top: 15px;
+    border-left: 2px solid cornflowerblue;
+    opacity:70%;
+    padding:0 5px;
+}
+
+.second-child #img2 span{
+    border-left-color: red;
+}
+
+.second-child #img4 span{
+    border-left-color: purple;
+    border-left-width: 3px;
+}
+
+section.second-child > section > h2{
+    margin-top: 90px;
+}
+
+
+
+.border{
+    border-left: 2px solid red;
+    padding:0px 5px;
+    margin-top:10px;
+    font-weight: bold;
+    
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+
+.last-section{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+   
+}
+
+.last-section img{
+    width:99%;
+    margin-left: 5px;
+}
+
+.last-section section h2, .last-section section p, .last-section section span {
+    display: inline-block;
+    margin-left: 7px;
+    font-size: 20px;
+
+}
+
+.last-section section p{
+    font-size: 15px;
+}
+.last-section section p, .last-section section span {
+    opacity: 70%;
+}
+
+/* .last-section section h2{
+    font-size: 20px;
+} */
+
+
+
+.last-section section span{
+    font-size: 20px;
+}
+
+.news{
+    border-left: 2px solid red;
+    margin-top:40px;
+    padding: 0 5px;
+    margin-left: 5px;
+}
+
